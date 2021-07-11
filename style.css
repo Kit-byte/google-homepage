@@ -68,6 +68,44 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
+    padding-bottom: 20px;
+}
+
+#search-bar {
+    border-style: solid;
+    border-color: rgb(223, 225, 229, 0);
+    box-shadow: 0 1px 6px rgb(32, 33, 36, .28);
+    border-radius: 100px;
+    border-width: 2px;
+    width: auto;
+    height: 40px;
+    max-width: 584px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-input {
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-style: solid;
+    font-size: 16px;
+    display: inline;
+}
+
+#search-img {
+    margin: auto;
+    padding-left: 10px;
+}
+
+#voice-icon {
+    height: 30px;
+    justify-self: end;
+    margin-right: 10px;
+    display: flex;
 }
 
 #footer {
