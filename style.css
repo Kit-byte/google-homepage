@@ -1,0 +1,8 @@
+/* Style.css */
+nav {
+    display: flex;
+    flex-direction: row;
+}
+#footer {
+    background: #f2f2f2;
+}
