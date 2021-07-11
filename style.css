@@ -1,8 +1,75 @@
 /* Style.css */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.nav-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav-item {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+#nav-item-1 {
+    display: flex;
+    justify-self: start;
+}
+
+#nav-item-2 {
+    display: flex;
+    justify-self: start;
+}
+
+#nav-item-3 {
+    display: flex;
+    justify-self: flex-end;
+}
+
+#nav-item-4 {
+    display: flex;
+    justify-self: flex-end; 
+}
+
+#nav-item-5 {
+    display: flex;
+    justify-self: flex-end;
+}
+
+#nav-item-6 {
+    display: flex;
+    justify-self: flex-end;
+}
+
+#k-icon {
+    border-radius: 50%;
+}
+
+a {
+    color: #222;
+    text-decoration-line: none;
+
+}
+
+#google-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
 #footer {
     background: #f2f2f2;
 }
