@@ -109,11 +109,39 @@ a {
     opacity: 40%;
 }
 
+#search-icon {
+    height: 20px;
+}
+
 #voice-icon {
     height: 30px;
     justify-self: end;
     margin-right: 10px;
     display: flex;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border-style: none;
+    border-radius: 4px;
+    font-family: Arial, Hsans-serif;
+    font-size: 14px;
+    padding: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button:hover {
+    border-color: rgb(223, 225, 229, 0);
+    box-shadow: 0 1px 6px rgb(32, 33, 36, .28);
 }
 
 footer {
